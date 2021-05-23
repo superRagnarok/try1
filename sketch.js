@@ -27,7 +27,7 @@ wrongResult = loadImage("wrong.png");
 
 }
 function setup(){
-createCanvas(displayWidth/4,displayHeight-200);
+createCanvas(displayWidth-100,displayHeight-200);
 //console.log(buttonClicked.length);
 instructions = createSprite(displayWidth/2.05,displayHeight/2.18,displayWidth-100,displayHeight-400);
 instructions.addImage(introImg);
